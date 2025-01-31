@@ -35,7 +35,7 @@ int main(){
 	}
 	unsigned char my_array[100]={0};
 	for(int i=0;i<array_length;i++){
-		printf("\nPlease enter %d element of the array : ",i);
+		printf("\nPlease enter %d element of the array(0-255) : ",i);
 		scanf("%hhu",&my_array[i]);
 	}
 	float median,mean;
